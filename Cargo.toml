@@ -108,7 +108,7 @@ name = "y"
 path = "src/y.rs"
 
 [[bin]]
-name = "z""
+name = "z"
 path = "src/z.rs"
 
 [dependencies]
