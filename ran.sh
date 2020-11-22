@@ -2,7 +2,7 @@
 set -eu
 
 if [ -n $WSLENV ]; then
-    gopaste | cargo run
+    $USERPROFILE/go/bin/gopaste.exe | cargo run
 else
     xclip -o -selection clipboard | cargo run
 fi

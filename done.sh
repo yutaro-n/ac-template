@@ -2,7 +2,7 @@
 set -eu
 
 if [ -n $WSLENV ]; then
-    cat src/main.rs | gocopy
+    cat src/main.rs | $USERPROFILE/go/bin/gocopy.exe
 else
     cat src/main.rs | xsel -bi
 fi
