@@ -3,7 +3,8 @@ set -eu
 
 
 if [ $# == 1 ]; then
-    cp -f src/$1.rs src/main.rs
+    name = "src/$1.rs"
+    cp -f $1 src/main.rs
 fi
 
 # please install gopaste
