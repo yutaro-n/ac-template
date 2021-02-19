@@ -3,7 +3,7 @@ set -eu
 
 
 if [ $# == 1 ]; then
-    mv -f src/$1.rs src/main.rs
+    cp -f src/$1.rs src/main.rs
 fi
 
 # please install gopaste

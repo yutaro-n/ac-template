@@ -12,5 +12,5 @@ else
 fi
 
 name="src/$1.rs"
-mv src/main.rs $name
-cp src/kata.rs src/main.rs
+mv -f src/main.rs $name
+cp -f src/kata.rs src/main.rs
